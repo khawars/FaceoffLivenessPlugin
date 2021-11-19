@@ -13,9 +13,5 @@
 			</feature>
 		</config-file>
 		<source-file src="src/ios/FaceoffLivenessPlugin.swift" />
-		<!-- <source-file src="src/ios/LicensingFramework.framework" target-dir="lib" framework="true" /> -->
-		<!-- <framework src="src/ios/LicensingFramework.framework" embed="true" custom="true" /> -->
-		<!-- <source-file src="src/ios/LivenessSDK.framework" target-dir="lib" framework="true" /> -->
-		<!-- <framework src="src/ios/LivenessSDK.framework" embed="true" custom="true" /> -->
 	</platform>
 </plugin>
