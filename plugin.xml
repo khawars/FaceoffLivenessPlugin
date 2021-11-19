@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.unikrew.faceoff" version="0.0.1"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>FaceoffLivenessPlugin</name>
+	<js-module name="FaceoffLivenessPlugin" src="www/FaceoffLivenessPlugin.js">
+		<clobbers target="cordova.plugins.FaceoffLivenessPlugin" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="FaceoffLivenessPlugin">
+				<param name="ios-package" value="FaceoffLivenessPlugin" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/FaceoffLivenessPlugin.swift" />
+		<!-- <source-file src="src/ios/LicensingFramework.framework" target-dir="lib" framework="true" /> -->
+		<!-- <framework src="src/ios/LicensingFramework.framework" embed="true" custom="true" /> -->
+		<!-- <source-file src="src/ios/LivenessSDK.framework" target-dir="lib" framework="true" /> -->
+		<!-- <framework src="src/ios/LivenessSDK.framework" embed="true" custom="true" /> -->
+	</platform>
+</plugin>
