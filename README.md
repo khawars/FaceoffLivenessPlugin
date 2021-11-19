@@ -13,6 +13,7 @@ To add this plugin to your project, follow these steps:
     ``` $ cordova plugin add <path to plugin folder> ```
 4. Run the following command to build your Cordova project:
     ``` $ cordova build ```
+5. Add ``LicensingFramework.framework`` and ``LivenessSDK.framework`` in your Xcode project.
 
 
 ### Example:
